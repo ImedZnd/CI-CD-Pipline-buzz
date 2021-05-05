@@ -1,3 +1,7 @@
+notifications:
+  email:
+    - imedzenned@yahoo.fr
+
 sudo: required
 
 services:
