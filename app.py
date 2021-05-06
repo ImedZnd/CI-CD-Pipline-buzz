@@ -15,9 +15,9 @@ def generate_buzz():
     page += 'User-Agent :'+request.headers.get('User-Agent')
     page += '<br><h1>'
     page += '<br>'
-    page += 'User IP Adress :'+request.remote_addr
+    page += 'User IP Adress:'+request.remote_addr
     page += '<br><h1>'
-    page += 'Date and Time :'+datetime.now().strftime("%d-%b-%Y (%H:%M:%S.%f)")
+    page += 'Date and Time:'+datetime.now().strftime("%d-%b-%Y (%H:%M:%S.%f)")
     page += '</h1>'
     page += '</body></html>'
     return page
